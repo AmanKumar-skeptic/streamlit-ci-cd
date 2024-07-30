@@ -41,6 +41,7 @@ def fetch_weather():
 def main():
     st.title('Weather Report Live')
     st.write('Current Weather Conditions')
+    st.writr('Test01')
 
     # Fetch weather data
     weather_data = fetch_weather()
